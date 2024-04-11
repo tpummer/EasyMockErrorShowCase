@@ -36,7 +36,6 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
                 <configuration>
-                    <argLine>@{argLine} --add-opens java.base/java.lang=ALL-UNNAMED --add-opens org.easymock/org.easymock.internal=jdk.httpserver</argLine>
                     <groups>unit,component</groups>
                 </configuration>
             </plugin>
